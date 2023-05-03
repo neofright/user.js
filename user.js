@@ -1235,3 +1235,10 @@ user_pref("security.ssl3.dhe_dss_camellia_256_sha",		false);
 user_pref("browser.startup.page",			0);
 // browser.startup.homepage only applies if browser.startup.page is set to '1'.
 // user_pref("browser.startup.homepage",			"about:blank");
+
+// PREF: always show the bookmarks toolbar
+user_pref("browser.toolbars.bookmarks.visibility",			"always");
+
+// PREF: Prefer DuckDuckGo to Google.
+user_pref("browser.urlbar.placeholderName",			"DuckDuckGo");
+user_pref("browser.urlbar.placeholderName.private",	"DuckDuckGo");
