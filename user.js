@@ -1272,3 +1272,11 @@ user_pref("security.ssl3.dhe_dss_camellia_256_sha",		false);
 // https://twitter.com/bwesterb/status/1748017372764475519
 // https://pq.cloudflareresearch.com/
 user_pref("security.tls.enable_kyber",				true);
+
+
+
+// PREF: Change the browser startup page to be blank instead of Google search.
+// https://kb.mozillazine.org/index.php?title=Browser.startup.page
+user_pref("browser.startup.page",			0);
+// browser.startup.homepage only applies if browser.startup.page is set to '1'.
+// user_pref("browser.startup.homepage",			"about:blank");
