@@ -1226,3 +1226,12 @@ user_pref("security.ssl3.dhe_dss_camellia_256_sha",		false);
 //user_pref("security.ssl3.rsa_aes_128_sha",			false); // 0x2f
 //user_pref("security.ssl3.ecdhe_rsa_aes_256_sha",		false); // 0xc014
 //user_pref("security.ssl3.ecdhe_ecdsa_aes_256_sha",		false); // 0xc00a
+
+
+
+
+// PREF: Change the browser startup page to be blank instead of Google search.
+// https://kb.mozillazine.org/index.php?title=Browser.startup.page
+user_pref("browser.startup.page",			0);
+// browser.startup.homepage only applies if browser.startup.page is set to '1'.
+// user_pref("browser.startup.homepage",			"about:blank");
