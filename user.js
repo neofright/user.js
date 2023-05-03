@@ -95,7 +95,7 @@ user_pref("media.peerconnection.ice.no_host",			true); // Firefox >= 52
 // user_pref("media.navigator.enabled",				false);
 // user_pref("media.navigator.video.enabled",			false);
 // user_pref("media.getusermedia.screensharing.enabled",		false);
-user_pref("media.getusermedia.audiocapture.enabled",		false);
+// user_pref("media.getusermedia.audiocapture.enabled",		false);
 
 // PREF: Disable battery API (Firefox < 52)
 // https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager
