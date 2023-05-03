@@ -16,7 +16,7 @@
 // NOTICE: Disabling ServiceWorkers breaks Firefox Sync
 // Unknown security implications
 // CVE-2016-5259, CVE-2016-2812, CVE-2016-1949, CVE-2016-5287 (fixed)
-user_pref("dom.serviceWorkers.enabled",				false);
+// user_pref("dom.serviceWorkers.enabled",				false);
 
 // PREF: Disable web notifications
 // https://support.mozilla.org/en-US/questions/1140439
