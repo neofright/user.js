@@ -178,7 +178,7 @@ user_pref("dom.archivereader.enabled",				false);
 // https://www.contextis.com/resources/blog/webgl-new-dimension-browser-exploitation/
 // user_pref("webgl.disabled",					true);
 // PREF: When webGL is enabled, use the minimum capability mode
-user_pref("webgl.min_capability_mode",				true);
+// user_pref("webgl.min_capability_mode",				true);
 // PREF: When webGL is enabled, disable webGL extensions
 // https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API#WebGL_debugging_and_testing
 user_pref("webgl.disable-extensions",				true);
