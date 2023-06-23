@@ -41,7 +41,7 @@ user_pref("dom.enable_user_timing",				false);
 // PREF: Disable Web Audio API
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1288359
 // NOTICE: Web Audio API is required for Unity web player/games
-user_pref("dom.webaudio.enabled",				false);
+// user_pref("dom.webaudio.enabled",				false);
 
 // PREF: Disable Location-Aware Browsing (geolocation)
 // https://www.mozilla.org/en-US/firefox/geolocation/
